@@ -1,0 +1,103 @@
+.container.app__player__container {
+    width: 20%;
+    text-align: center;
+    height: 54vh;
+    position: relative;
+
+    /* background-image: url('../../assets/images/songs-image/2PAC_BOB.jpg'); */
+    background-size: cover;
+    background-position:center;
+    background-size: 25rem;
+    background-repeat:no-repeat;
+    background-color: #2D2727;
+
+    border-radius: 4rem;    
+    -moz-border-radius: 103px 103px 103px 103px;
+    -webkit-border-radius: 103px 103px 103px 103px;
+    border: 1px solid transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.sound__img {
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    width: 130px;
+}
+
+.image__container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    bottom: 35px;
+}
+
+.artist__name__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.control__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 0.7rem;
+}
+
+.general_icons:hover {
+    color: #ff6f00 !important;
+    cursor: pointer;
+}
+
+.side_icons:hover {
+    color:var(--color-light) !important;
+    cursor: pointer;
+}
+
+.char__img {
+    width: 4rem;
+    margin-top: 0.5rem;
+}
+
+.music__image {
+    width: 170px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 13px 12px 40px -7px rgba(255, 255, 255, 0.75);
+}
+
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES (Tablets)) =============*/
+
+@media screen and (max-width: 1024px){
+    .container.app__player__container{
+        width: 50%;
+    }
+    .sound__img {
+        width: 120px;
+        top: 5px;
+    }
+}
+
+
+/* ============= MEDIA QUERIES (SMALL DEVICES (Phones)) =============*/
+
+@media screen and (max-width: 600px) {
+    .container.app__player__container{
+        width: 70%;
+        /* height: 20vh; */
+    }
+    .sound__img {
+        width: 70px;
+        right: 0.5px;
+    }
+    .char__img {
+        width: 4rem;
+        margin-top: 2rem;
+    }
+    .music__image {
+        width: 100px;
+    }
+} 

@@ -1,0 +1,16 @@
+.TimeAndDate__container {
+    position: absolute;
+    right: 2%;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES (Tablets)) */
+
+@media screen and (max-width: 1024px){
+
+}
+
+/* MEDIA QUERIES (SMALL DEVICES (Phones)) */
+
+@media screen and (max-width: 600px) {
+
+}
