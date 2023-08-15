@@ -22,7 +22,7 @@ const Footer = () => {
     <footer>
 
       <a href="#" className='footer__logo'>TOM3R</a>
-
+      
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#music">Music</a></li>
@@ -33,17 +33,17 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.google.com" target='blank'><img src={google} /></a>
-        <a href="https://www.linkedin.com" target='blank'><img src={linkedin} /></a>
+        <a href="https://www.google.com" target='blank'><img src={google} alt=''/></a>
+        <a href="https://www.linkedin.com" target='blank'><img src={linkedin} alt=''/></a>
         <a href="https://www.github.com" target='blank'><VscGithubInverted size="40px" className='git_img' /></a>
-        <a href="https://chat.openai.com/chat" target='blank'><img src={gpt} /></a>
-        <a href="https://www.youtube.com/" target='blank'><img src={youtube} /></a>
-        <a href="https://techcrunch.com/" target='blank'><img src={techcrunch} /></a>
-        <a href="https://open.spotify.com/" target='blank'><img src={spotify} /></a>
-        <a href="https://www.timeanddate.com/holidays" target='blank'><img src={holiday} /></a>
-        <a href="https://app.plex.tv/" target='blank'><img src={plex} /></a>
-        <a href="https://www.boi.org.il/roles/markets/exchangerates/" target='blank'><img src={money} /></a>
-        <a href="https://web.whatsapp.com/" target='blank'><img src={whatsapp} /></a>
+        <a href="https://chat.openai.com/chat" target='blank'><img src={gpt} alt=''/></a>
+        <a href="https://www.youtube.com/" target='blank'><img src={youtube} alt=''/></a>
+        <a href="https://techcrunch.com/" target='blank'><img src={techcrunch} alt=''/></a>
+        <a href="https://open.spotify.com/" target='blank'><img src={spotify} alt=''/></a>
+        <a href="https://www.timeanddate.com/holidays" target='blank'><img src={holiday} alt=''/></a>
+        <a href="https://app.plex.tv/" target='blank'><img src={plex} alt=''/></a>
+        <a href="https://www.boi.org.il/roles/markets/exchangerates/" target='blank'><img src={money} alt=''/></a>
+        <a href="https://web.whatsapp.com/" target='blank'><img src={whatsapp} alt=''/></a>
       </div>
 
       <div className="footer__copyright">

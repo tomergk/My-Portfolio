@@ -9,7 +9,6 @@ const About = () => {
     <section id='about'>
       <h5>Get To Know</h5>
       <h2>About</h2>
-
       <div className='container about__container'>
         <div className="about__me__shadow">
 
