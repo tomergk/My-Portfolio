@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <TimeAndDate />
       <Header />
-      {/* <Nav /> */}
+      <Nav />
       <AppPlayer/>
       <About />
       <Experience />
