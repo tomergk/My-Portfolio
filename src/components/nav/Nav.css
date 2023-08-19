@@ -7,7 +7,7 @@ nav {
     display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
-    bottom: 14rem;
+    bottom: 7rem;
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(5px);
@@ -30,6 +30,8 @@ nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+
 
 /* MEDIA QUERIES (SMALL DEVICES (Phones)) */
 

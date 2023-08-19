@@ -6,6 +6,7 @@ import ME from '../../../src/assets/images/avatar23.png'
 const Header = () => {
   return (
     <header>
+
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Tomer Goren</h1>
@@ -13,17 +14,23 @@ const Header = () => {
 
         <CTA />
 
-        <div className="me star">
-          <img className='pic' src={ME} alt="me" />
+        <div className='me_wraper'>
 
-          <p>
-            I'm a passionate programmer who loves diving into the digital realm.
-            Whether I'm coding, playing sports, hanging out with friends,
-            exploring new things, or watching horror and comedy movies,
-            I'm all about enjoying life's adventures.
-            From lines of code to heart-pounding games,
-            I find excitement in every challenge.
-          </p>
+          <div className="me">
+            <img className='pic' src={ME} alt="me" />
+          </div>
+
+          <div className='me_content me'>
+            <p>
+              I'm a passionate programmer who loves diving into the digital realm.
+              Whether I'm coding, playing sports, hanging out with friends,
+              exploring new things, or watching horror and comedy movies,
+              I'm all about enjoying life's adventures.
+              From lines of code to heart-pounding games,
+              I find excitement in every challenge.
+            </p>
+          </div>
+
         </div>
 
       </div>

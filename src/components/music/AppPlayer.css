@@ -65,7 +65,10 @@
     width: 170px;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    box-shadow: 13px 12px 40px -7px rgba(255, 255, 255, 0.75);
+
+    -webkit-box-shadow: 0px -38px 38px -38px #FB2576;
+    -moz-box-shadow: 38px -38px 38px -38px #FB2576;
+    box-shadow: 38px -49px 38px -38px #FB2576;
 }
 
 
@@ -87,7 +90,6 @@
 @media screen and (max-width: 600px) {
     .container.app__player__container{
         width: 70%;
-        /* height: 20vh; */
     }
     .sound__img {
         width: 70px;

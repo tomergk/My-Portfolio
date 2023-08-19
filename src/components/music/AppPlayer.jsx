@@ -47,10 +47,6 @@ const AppPlayer = () => {
                     prevSong={prevSong}
                 />
             </div>
-
-            {/* <div>
-                <Drums/>
-            </div> */}
         </section>
     );
 }

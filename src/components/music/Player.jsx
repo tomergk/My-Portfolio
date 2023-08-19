@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { BiSkipPreviousCircle, BiSkipNextCircle, BiPlayCircle, BiPauseCircle } from 'react-icons/bi'
 import sound_img from '../../assets/logos/sound.png';
 import './Player.css'
-import gif from "../../assets/gifs/music.gif";
+import gif from "../../assets/gifs/giphy.gif";
 
 
 const Player = ({ currentSong, currentIndex, nextSong, prevSong }) => {
