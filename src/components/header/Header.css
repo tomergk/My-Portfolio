@@ -33,18 +33,28 @@ header {
     align-items: center;
     gap: 0.8rem;
     left: 10px;
-    bottom: 7rem;
+    bottom: 0rem;
+}
+
+.header__socials .gifImage {
+    width: 10rem;
+    height: 10rem;
 }
 
 /* additional line to the socials icons */
 .header__socials::after {
     content: "";
-    width: 1px;
-    height: 2rem;
+    width: 5px;
+    height: 3rem;
     background: var(--color-primary);
 }
 
-
+.header__socials::before {
+    content: "";
+    width: 5px;
+    height: 3rem;
+    background: var(--color-primary);
+}
 
 
 /* ======================= ME ====================== */
@@ -68,14 +78,25 @@ header {
 
 /* ======================= SCROLL DOWN ====================== */
 
-.scroll__down{
+/* .scroll__down{
     position: absolute;
     right: -15px;
     bottom: 9rem;
-    transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
-}
+} */
+
+.scroll__down {
+    position: absolute;
+    width: 300px; 
+    height: 200px;
+    bottom: 200px;
+    padding: 10px; 
+    overflow: auto; 
+    right: -40px;
+    top: 400px;
+  }
+  
 
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES (Tablets)) =============*/

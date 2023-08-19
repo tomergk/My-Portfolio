@@ -5,14 +5,13 @@ nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    /* display: flex; */
     padding: 0.7rem 1.7rem;
     z-index: 2;
     bottom: 1.5rem;
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
-}
+}  
 
 nav a {
     background: transparent;
@@ -32,3 +31,15 @@ nav a.active {
     color: var(--color-bg);
 }
 
+/* MEDIA QUERIES (SMALL DEVICES (Phones)) */
+
+@media screen and (max-width: 600px) {
+    nav {
+        right: 5%;
+        background: rgba(0, 0, 0, 0.092);
+        display: flex;
+        bottom: -3.5rem;
+        gap: 0.3rem;
+        backdrop-filter: blur(15px);
+    }    
+}

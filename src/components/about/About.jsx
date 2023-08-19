@@ -30,15 +30,13 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Hobbies</h5>
-              <small>200+ World Wide</small>
+              <small>Enthusiastically Exploring Diverse Horizons.</small>
             </article>
 
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos voluptatem eius dolorem
-            maiores nihil ducimus at rem ullam reprehenderit quidem quia deserunt, molestiae, eligendi
-            amet repel lat molestias quos totam.
+          I'm a passionate programmer who loves diving into the digital realm. Whether I'm coding, playing sports, hanging out with friends, exploring new things, or watching horror and comedy movies, I'm all about enjoying life's adventures. From lines of code to heart-pounding games, I find excitement in every challenge.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
