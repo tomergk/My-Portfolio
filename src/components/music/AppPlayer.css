@@ -7,7 +7,7 @@
     background-image: url('../../assets/images/1234.jfif');
     background-size: cover;
     background-position:center;
-    background-size: 25rem;
+    background-size: 30rem;
     background-repeat:no-repeat;
     background-color: #2D2727;
 
@@ -47,7 +47,7 @@
 }
 
 .general_icons:hover {
-    color: #ff6f00 !important;
+    color: #A149FA !important;
     cursor: pointer;
 }
 

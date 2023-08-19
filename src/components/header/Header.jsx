@@ -2,7 +2,6 @@ import React from 'react'
 import "./Header.css"
 import CTA from './CTA'
 import ME from '../../../src/assets/images/avatar23.png'
-import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
@@ -14,14 +13,9 @@ const Header = () => {
 
         <CTA />
 
-        <HeaderSocials />
-
-        <div className="me">
+        <div className="me star">
           <img className='pic' src={ME} alt="me" />
-        </div>
 
-        <div href="#contact" className='scroll__down'>
-          {/* <a href="#contact" className='scroll__down'>Scroll Down</a> */}
           <p>
             I'm a passionate programmer who loves diving into the digital realm.
             Whether I'm coding, playing sports, hanging out with friends,

@@ -4,7 +4,7 @@ import blogIMG from '../../assets/images/blog.png';
 import ListsAndTasks from '../../assets/images/ListsAndTasks.png';
 const simon = 'https://simon-game-1lus.onrender.com/';
 const Bulletin_Board = 'https://blog-rcwp.onrender.com/';
-const List_Task = 'https://lists-tasks.onrender.com/display-tasks';
+const List_Task = 'https://lists-tasks.onrender.com/';
 
 const data = [
     {

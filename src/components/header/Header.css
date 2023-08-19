@@ -24,45 +24,11 @@ header {
     justify-content: center;
 }
 
-/* ======================= HEADER SOCIALS ====================== */
-
-.header__socials {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    left: 10px;
-    bottom: 0rem;
-}
-
-.header__socials .gifImage {
-    width: 10rem;
-    height: 10rem;
-}
-
-/* additional line to the socials icons */
-.header__socials::after {
-    content: "";
-    width: 5px;
-    height: 3rem;
-    background: var(--color-primary);
-}
-
-.header__socials::before {
-    content: "";
-    width: 5px;
-    height: 3rem;
-    background: var(--color-primary);
-}
-
-
 /* ======================= ME ====================== */
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    /* height: 30rem; */
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -76,29 +42,6 @@ header {
     margin-left: 2rem;
 }
 
-/* ======================= SCROLL DOWN ====================== */
-
-/* .scroll__down{
-    position: absolute;
-    right: -15px;
-    bottom: 9rem;
-    font-weight: 300;
-    font-size: 0.9rem;
-} */
-
-.scroll__down {
-    position: absolute;
-    width: 300px; 
-    height: 200px;
-    bottom: 200px;
-    padding: 10px; 
-    overflow: auto; 
-    right: -40px;
-    top: 400px;
-  }
-  
-
-
 /* ============= MEDIA QUERIES (MEDIUM DEVICES (Tablets)) =============*/
 
 @media screen and (max-width: 1024px){
@@ -107,22 +50,24 @@ header {
     }
 }
 
-
 /* ============= MEDIA QUERIES (SMALL DEVICES (Phones)) =============*/
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 150vh;
+    }
+
+    .me {
+        height: 60%;
+    }
+
+    .me p {
+        font-size:smaller;
     }
 
     .scroll__down {
-        right: 15px;
-        bottom: 0rem;
-        transform: rotate(0deg);
-    }
-    .header__socials {
-        flex-direction: row;
-        align-items: center;
-        bottom: 0rem;
+        height: 10%;
+        width: 40%;
+        left: 6rem;
     }
 }

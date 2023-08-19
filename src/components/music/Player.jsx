@@ -57,26 +57,26 @@ const Player = ({ currentSong, currentIndex, nextSong, prevSong }) => {
 
                 <div className='control__icons'>
                     <BiSkipPreviousCircle
-                        size='40' color='#8c9eff'
+                        size='40' color='#D5FFD0'
                         className='side_icons'
                         onClick={prevSong} />
                     {isPlaying ? (
                         <BiPauseCircle
                             size='60'
-                            color='#3f51b5'
+                            color='#16FF00'
                             className='general_icons'
                             onClick={togglePlay} />
 
                     ) : (
                         <BiPlayCircle
                             size='60'
-                            color='#3f51b5'
+                            color='#16FF00'
                             className='general_icons'
                             onClick={togglePlay} />
 
                     )}
                     <BiSkipNextCircle
-                        size='40' color='#8c9eff'
+                        size='40' color='#D5FFD0'
                         className='side_icons'
                         onClick={nextSong} />
 
