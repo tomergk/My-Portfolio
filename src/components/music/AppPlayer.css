@@ -105,4 +105,23 @@
     .instrument {
         display: none;
     }
+
+    .song__name__container {
+        margin-top: 2rem;
+    }
+    
+    .artist__name__container {
+        margin-top: 1rem;
+    }
+    
+    .control__icons {
+        gap: 15px;
+        margin-top: 10rem;
+    }
+
+
+
+
+
+
 } 
