@@ -1,12 +1,9 @@
 #music {
     background-image: url('/src/assets/images/1234.jfif');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-
-    border-radius: 200px 200px 200px 200px;
--moz-border-radius: 200px 200px 200px 200px;
--webkit-border-radius: 200px 200px 200px 200px;
-border: 0px solid #000000;
+    background-position: center; 
+    border-bottom: 10px solid #881515;
 }
 
 .container.app__player__container {
@@ -81,9 +78,14 @@ border: 0px solid #000000;
     .container.app__player__container{
         width: 50%;
     }
+    
     .sound__img {
         width: 120px;
         top: 5px;
+    }
+
+    .instrument {
+        display: none;
     }
 }
 
@@ -94,8 +96,13 @@ border: 0px solid #000000;
     .container.app__player__container{
         width: 70%;
     }
+    
     .sound__img {
         width: 70px;
         right: 0.5px;
+    }
+
+    .instrument {
+        display: none;
     }
 } 
