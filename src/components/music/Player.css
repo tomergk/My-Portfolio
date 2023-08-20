@@ -16,6 +16,13 @@
     font-weight: bolder;
 }
 
+.sound__img {
+    position: absolute;
+    top: -35px;
+    right: -25px;
+    width: 100px;
+}
+
 /* ============= MEDIA QUERIES (MEDIUM DEVICES (Tablets)) =============*/
 
 @media screen and (max-width: 1024px){

@@ -22,13 +22,13 @@ export const audios = [
         name: 'One More Light',
         artist: 'Linkin Park',
         music: require('../../assets/audio/Linkin Park - One More Light.mp3'),
-        background: require('../../assets/images/songs-image/linkin park.jpg')
+        background: require('../../assets/images/songs-image/linkin_park.jpg')
     },
     {
         name: 'Gemini',
         artist: 'Princess Nokia',
         music: require('../../assets/audio/Nokia - Gemini.mp3'),
-        background: require('../../assets/images/songs-image/princess nokia.jpg')
+        background: require('../../assets/images/songs-image/princess_nokia.jpg')
     },
     {
         name: 'AERIALS',
@@ -46,7 +46,7 @@ export const audios = [
         name: 'I Am Loco',
         artist: 'ILL NINO',
         music: require('../../assets/audio/I Am Loco.mp3'),
-        background: require('../../assets/images/songs-image/ill nino.jpg')
+        background: require('../../assets/images/songs-image/ill_nino.jpg')
     }
 ]
 

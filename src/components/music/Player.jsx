@@ -2,10 +2,8 @@ import React, { useState, useRef, useEffect } from 'react'
 import { BiSkipPreviousCircle, BiSkipNextCircle, BiPlayCircle, BiPauseCircle } from 'react-icons/bi'
 import sound_img from '../../assets/logos/sound.png';
 import './Player.css'
-import gif from "../../assets/gifs/giphy.gif";
 
-
-const Player = ({ currentSong, currentIndex, nextSong, prevSong }) => {
+const Player = ({ currentSong, currentIndex, nextSong, prevSong, background }) => {
 
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef(null);
@@ -23,17 +21,12 @@ const Player = ({ currentSong, currentIndex, nextSong, prevSong }) => {
     }, [isPlaying, currentIndex])
 
     return (
-        <div className='player__container'>
+        <div className='player__container' style={{ backgroundImage: `url(${background})` }}>
             <audio ref={audioRef} src={currentSong.music}></audio>
 
             <div className='sound__img'>
                 <img src={sound_img} alt="" />
             </div>
-
-            <div className='image__container'>
-                <img src={gif} alt="music_image" className='music__image' />
-            </div>
-
 
             <div>
 
@@ -41,7 +34,7 @@ const Player = ({ currentSong, currentIndex, nextSong, prevSong }) => {
                 {currentSong ?
                     (
                         <div>
-                            <div>
+                            <div className='song__name__container'>
                                 <h2 className='song__name'>{currentSong.name}</h2>
                             </div>
                             <div className='artist__name__container'>

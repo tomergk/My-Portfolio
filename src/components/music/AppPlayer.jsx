@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './AppPlayer.css'
 import { audios } from './audioData'
 import Player from './Player'
-// import Drums from './Drums'
+import speaker from "../../assets/images/Musical-Instruments/speaker.png";
 
 
 const AppPlayer = () => {
@@ -39,14 +39,30 @@ const AppPlayer = () => {
 
     return (
         <section id='music'>
-            <div className='container app__player__container'>
+
+            <h5>Enjoy some...</h5>
+            <h2>Music</h2>
+
+            <div
+                className='container app__player__container'
+                style={{
+                    backgroundImage: `url(${currentSong.background})`,
+                    backgroundSize: '100% 40%',
+                }}
+            >
+
                 <Player
                     currentSong={currentSong}
                     currentIndex={currentIndex}
                     nextSong={nextSong}
                     prevSong={prevSong}
                 />
+                <img class="instrument speaker-img1" src={speaker} alt="Speaker" />
+                <img class="instrument speaker-img2" src={speaker} alt="Speaker" />
             </div>
+
+
+
         </section>
     );
 }
