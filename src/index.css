@@ -20,7 +20,7 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --transition: all 400ms ease;
-    --container-width-lg: 75%;
+    --container-width-lg: 70%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
@@ -120,7 +120,7 @@ a:hover {
 @media screen and (max-width: 600px) {
 
     .container {
-        width: var(--container-width-sm);
+        width: var(--container-width-lg);
     }
 
     section > h2 {
