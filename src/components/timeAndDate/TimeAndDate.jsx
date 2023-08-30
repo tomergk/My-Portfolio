@@ -12,7 +12,7 @@ const TimeAndDate = () => {
         const now = new Date();
         const formattedDate = format(now, 'HH:mm:ss, dd/MM/yy');
         setDateTime(formattedDate);
-      }, 1000); //1k ms = 1 sec
+      }, 1000);
   
       return () => clearInterval(timer);
     }, []);

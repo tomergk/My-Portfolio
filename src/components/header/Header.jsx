@@ -1,26 +1,18 @@
 import React from 'react'
 import "./Header.css"
-import CTA from './CTA'
 import ME from '../../../src/assets/images/avatar23.png'
 
 const Header = () => {
   return (
-    <header>
+    <header id='header'>
 
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Tomer Goren</h1>
-        <h3>Fu11stack Developer</h3>
 
-        <CTA />
+        <h1 className='header_name' >Tomer Goren</h1>
+        <h2 className='header_job' >Fu11stack Developer</h2>
 
         <div className='me_wraper'>
-
-          <div className="me">
-            <img className='pic' src={ME} alt="me" />
-          </div>
-
-          <div className='me_content me'>
+          <div className='me_content_wraper'>
             <p>
               I'm a passionate programmer who loves diving into the digital realm.
               Whether I'm coding, playing sports, hanging out with friends,
@@ -29,6 +21,10 @@ const Header = () => {
               From lines of code to heart-pounding games,
               I find excitement in every challenge.
             </p>
+          </div>
+
+          <div className='me_pic_wraper'>
+            <img className='pic' src={ME} alt="me" />
           </div>
 
         </div>

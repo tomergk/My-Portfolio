@@ -1,8 +1,7 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    justify-items:center;
 }
 
 .experience__container > div {
@@ -43,6 +42,7 @@
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES (Tablets)) =============*/
+
 @media screen and (max-width: 1024px){
     .experience__container {
         grid-template-columns: 1fr;
@@ -61,6 +61,7 @@
 
 
 /* ============= MEDIA QUERIES (SMALL DEVICES (Phones)) =============*/
+
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;

@@ -1,16 +1,34 @@
 .TimeAndDate__container {
     position: absolute;
     right: 2%;
+    top: 5%;
+    height: 10vh;
+    width: 15vw;
+    text-align: center;
+    background-color: var(--color-primary);
+    border-radius: 2vh;
+    color: var(--color-bg-variant);
+    font-size: 2vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
 
-/* MEDIA QUERIES (MEDIUM DEVICES (Tablets)) */
-
-@media screen and (max-width: 1024px){
-
+.TimeAndDate__container h3 {
+    margin: 0;
+    width: 100%;
+    font-weight: 600;
 }
 
 /* MEDIA QUERIES (SMALL DEVICES (Phones)) */
 
 @media screen and (max-width: 600px) {
 
+    .TimeAndDate__container {
+        right: 2%;
+        top: 2%;
+        height: 5vh;
+        width: 35vw;
+        font-size: 1.5vh;
+}
 }
