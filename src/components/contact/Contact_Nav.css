@@ -1,8 +1,8 @@
 .cta {
     display: grid;
     position: fixed;
-    top: 2vh;
-    left: 2vh;
+    top: 0.5vh;
+    left: 0.5vh;
     border: 1px solid var(--color-primary);
     border-radius: 0.4rem;
     min-width: 5.5vh;
