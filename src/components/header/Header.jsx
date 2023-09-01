@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import ME from '../../../src/assets/images/avatar23.png'
+import ME1 from '../../../src/assets/images/avatar23.png' /*little pic*/
 
 const Header = () => {
   return (
@@ -24,7 +24,7 @@ const Header = () => {
           </div>
 
           <div className='me_pic_wraper'>
-            <img className='pic' src={ME} alt="me" />
+            <img className='pic' src={ME1} alt="me-img" />
           </div>
 
         </div>

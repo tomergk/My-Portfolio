@@ -118,7 +118,7 @@ const Experience = () => {
         {/* END OF BACKEND */}
 
         <div className="experience__backend">
-          <h3>programming languages</h3>
+          <h3>Programming Languages</h3>
           <div className="experience__content">
 
             <article className='experience__details'>
