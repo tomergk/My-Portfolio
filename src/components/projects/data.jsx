@@ -3,13 +3,6 @@ import board from '../../assets/gifs/board.gif';
 import music from '../../assets/gifs/music.gif';
 import list from '../../assets/gifs/list.gif';
 
-
-// import blogIMG from '../../assets/images/blog.png';
-// import ListsAndTasks from '../../assets/images/ListsAndTasks.png';
-// import music_play_kitIMG from '../../assets/images/music_play_kit.png';
-
-
-
 const simon = 'https://simon-game-1lus.onrender.com/';
 const Bulletin_Board = 'https://blog-rcwp.onrender.com/';
 const List_Task = 'https://lists-tasks.onrender.com/';
