@@ -26,7 +26,7 @@ const data = [
     {
         id: 3,
         image: list,
-        title: 'Lists & Tasks',
+        title: 'Tasks Organizer',
         github: 'https://github.com/tomergk/Lists-Tasks',
         link: List_Task
     },
