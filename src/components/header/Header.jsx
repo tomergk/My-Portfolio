@@ -15,7 +15,7 @@ const Header = () => {
           <div className='me_content_wraper'>
             <p>
               I'm a passionate programmer who loves diving into the digital realm.
-              Whether I'm coding, playing sports, hanging out with friends,
+              Whether I'm coding, Playing sports games, hanging out with friends,
               exploring new things, or watching horror and comedy movies,
               I'm all about enjoying life's adventures.
               From lines of code to heart-pounding games,
