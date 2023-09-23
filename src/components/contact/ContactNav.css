@@ -1,0 +1,47 @@
+.cta {
+    display: grid;
+    position: fixed;
+    top: 5%;
+    left: 2%;
+    border: 2px solid var(--color-primary);
+    border-radius: 2vh;
+    min-width: 5.5vh;
+    max-width: 5.5vw;
+    padding-top: 1.5rem;
+    color: var(--color-primary);
+    justify-items: center;
+    align-items: center;
+
+    border: 5px solid var(--color-primary);
+    background: var(--color-bg);
+    background-image: url('/src/assets/background/bg-texture.png');
+}
+
+.cube {
+    max-width: 80%;
+    max-height: auto;
+    text-align: center;
+}
+
+.contact_image {
+    width: 100%;
+}
+
+.cv_img {
+    width: 73%;
+    height: 85%
+}
+
+.github_img {
+    width: 80%;
+    height: 90%
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES (Phones)) =============*/
+@media screen and (max-width: 1000px) {
+    
+    .cta {
+        padding-top: 0.8rem;
+    }
+}
+

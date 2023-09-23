@@ -1,0 +1,146 @@
+.div_1 {
+    background-attachment: scroll;
+    background-clip: border-box;;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to right bottom, rgb(64, 130, 130) 0%, rgb(71, 125, 44) 100%);
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(169, 161, 150);
+    color-scheme: dark;
+    display: block;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    height: 3876px;
+    left: 0px;
+    letter-spacing: normal;
+    outline-color: rgb(3, 92, 186);
+    outline-style: solid;
+    outline-width: 4px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: fixed;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 1400px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ul_1 {
+    box-sizing: border-box;
+    color: rgb(169, 161, 150);
+    color-scheme: dark;
+    display: block;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    height: 3876px;
+    left: 0px;
+    letter-spacing: normal;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    outline-color: rgb(185, 3, 19);
+    outline-style: solid;
+    outline-width: 4px;
+    padding-inline-start: 0px;
+    padding-left: 0px;
+    position: absolute;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 1400px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.li_1{
+    animation-delay: 4s;
+    animation-direction: normal;
+    animation-duration: 50s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    /* animation-name: ; */
+    animation-play-state: running;
+    animation-range-end: normal;
+    animation-range-start: normal;
+    animation-timeline: auto;
+    animation-timing-function: ease;
+    background-color: rgba(24, 26, 27, 0.1);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    bottom: -320px;
+    color: rgb(169, 161, 150);
+    color-scheme: dark;
+    display: block;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    height: 80px;
+    left: 738px;
+    letter-spacing: normal;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    outline-color: rgb(185, 3, 19);
+    outline-style: solid;
+    outline-width: 4px;
+    position: absolute;
+    text-align: left;
+    transition-timing-function: linear;
+    width: 80px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.li_2 {
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-duration: 34s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    /* animation-name  */
+    animation-play-state: running;
+    animation-range-end: normal;
+    animation-range-start: normal;
+    animation-timeline: auto;
+    animation-timing-function: ease;
+    background-color: rgba(24, 26, 27, 0.1);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    bottom: -320px;
+    color: rgb(169, 161, 150);
+    color-scheme: dark;
+    display: block;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    height: 160px;
+    left: 280px;
+    letter-spacing: normal;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    outline-color: rgb(185, 3, 19);
+    outline-style: solid;
+    outline-width: 4px;
+    position: absolute;
+    text-align: left;
+    transition-timing-function: linear;
+    width: 160px;
+    -webkit-font-smoothing: antialiased;
+}

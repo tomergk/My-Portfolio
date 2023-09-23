@@ -1,7 +1,6 @@
 header {
-    height: 80vh;
-    padding-top: 5rem;
-    overflow: hidden;
+    height: 100%;
+    padding-top: 4%;
 }
 
 .header__container {
@@ -10,76 +9,114 @@ header {
 }
 
 .header_name {
-    font-size: 7vh;
+    font-size: 7.5vh;
 }
 
 .header_job {
-    font-size: 3vh; 
-    color: var(--color-primary);
+    font-size: 4vh; 
+    color: #f39c12;
+    margin-top: 3%;
 }
 
 .me_wraper {
     display: flex;
-    justify-content:center;
-    height: 90%;
-    margin-top: 5%;
-    gap: 10;
-}
-
-.me_pic_wraper {
-    width: 40%;
-    max-width: 40%;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 40vh;
-}
-
-.pic {
-    width: 40vh;
+    height: 60%;
+    margin-top: 8%;
+    padding-bottom: 10%;
 }
 
 .me_content_wraper {
-    font-size: 2.5vh; 
-    width: 70vh;
-    max-width: 70vh;
+    height: 100%;
+    width: 70%;
+    max-width: 70%;
+    font-size: 2.4vh; 
     text-align: left;
+    font-family: 'Shantell Sans', cursive;
+    margin: auto;
 }
 
-/* ============= MEDIA QUERIES (SMALL DEVICES (Phones)) =============*/
+.me_pic_wraper {
+    height: 100%;
+    width: 30%;
+    max-width: 30%;
+}
 
-@media screen and (max-width: 600px) {
+.me_pic_wraper img {
+    width: 27vh;
+    height: 27vh;
 
-    .header_name {
-        font-size: 5vh;
-    }
-    
-    .header_job {
-        font-size: 2.5vh; 
-        color: var(--color-primary);
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+
+    -webkit-box-shadow: 0px 0px 34px var(--color-primary);
+    -moz-box-shadow: 0px 0px 34px 6px var(--color-primary);
+    box-shadow: 0px 0px 34px 6px var(--color-primary);
+
+    outline: 10px double var(--color-primary);
+    background: var(--color-bg);
+    background-image: url('/src/assets/background/bg-texture.png');
+}
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        padding-top: 20%;
     }
 
     .me_wraper {
-        margin-top: 20%;
-        gap: 5%;
+        margin-top: 12%;
+        padding-bottom: 0%;
     }
 
     .me_content_wraper {
         font-size: 1.5vh; 
         min-width: 50%;
         max-width: 50%;
+        margin-top: 5%;
+        margin-left: 5%;
     }
 
     .me_pic_wraper {
-        min-width: 45%;
-        max-width: 45%;
-        height: 40vh;
-        align-items: flex-start;
+        margin-top: 10%;
+        width: 50%;
+        max-width: 50%;
+        height: 50%;
     }
     
-    .pic {
-        width: 100%;
-        height: 80%;
-        content: url('../../../src/assets/images/avatar2.png'); /*large pic*/
+    .me_pic_wraper img {
+        width: 12.5vh;
+        height: 12.5vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        padding-top: 20%;
+    }
+
+    .me_wraper {
+        margin-top: 12%;
+        padding-bottom: 0%;
+    }
+
+    .me_content_wraper {
+        font-size: 1.2vh; 
+        min-width: 50%;
+        max-width: 50%;
+        margin-top: 5%;
+    }
+
+    .me_pic_wraper {
+        margin-top: 10%;
+        width: 50%;
+        max-width: 50%;
+        height: 50%;
+    }
+    
+    .me_pic_wraper img {
+        width: 12.5vh;
+        height: 12.5vh;
     }
 }

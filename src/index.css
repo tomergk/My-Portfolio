@@ -21,8 +21,8 @@
     --color-light: rgba(255, 255, 255, 0.6);
     --transition: all 400ms ease;
     --container-width-lg: 70%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-md: 75%;
+    --container-width-sm: 80%;
 }
 
 html {
@@ -39,7 +39,6 @@ body {
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/background/bg-texture.png);
-
 }
 
 /* ============= GENERAL STYLES ============ */

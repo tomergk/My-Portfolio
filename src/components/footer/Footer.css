@@ -2,14 +2,12 @@
     padding: 0.1rem 0;
     text-align: center;
     border-top: 3px solid var(--color-primary);
-    background-image: url(http://www.transparenttextures.com/patterns/ice-age.png);
-    background-color: #162447;
 }
 
 .footer__logo {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
     display: inline-block;
+    border-bottom: 1px solid white;
 }
 
 .logoIMG {
@@ -17,7 +15,8 @@
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
     color: var(--color-primary);
     font-size: 170%;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import ME1 from '../../../src/assets/images/avatar23.png' /*little pic*/
+import ME1 from '../../../src/assets/images/avatar23.png'
 
 const Header = () => {
   return (
@@ -12,9 +12,10 @@ const Header = () => {
         <h2 className='header_job' >Fu11stack Developer</h2>
 
         <div className='me_wraper'>
+        
           <div className='me_content_wraper'>
             <p>
-              I'm a passionate programmer who loves diving into the digital realm.
+              Hi! I'm a passionate programmer who loves diving into the digital realm.
               Whether I'm coding, Playing sports games, hanging out with friends,
               exploring new things, or watching horror and comedy movies,
               I'm all about enjoying life's adventures.
@@ -24,7 +25,7 @@ const Header = () => {
           </div>
 
           <div className='me_pic_wraper'>
-            <img className='pic' src={ME1} alt="me-img" />
+            <img src={ME1} alt="me-img" />
           </div>
 
         </div>

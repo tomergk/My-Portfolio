@@ -45,11 +45,12 @@
 
 @media screen and (max-width: 1024px){
     .experience__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        width: var(--container-width-md);
     }
     
     .experience__container > div {
-        width: 80%;
+        width: 100%;
         padding: 2rem;
         margin: 0 auto;
     }

@@ -51,7 +51,10 @@ a.btn {
     .projects__container {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.2rem;
+        width: var(--container-width-md);
     }
+
+
 }
 
 /* MEDIA QUERIES (SMALL DEVICES (Phones)) */

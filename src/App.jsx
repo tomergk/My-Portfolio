@@ -1,17 +1,30 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import Loading from './components/loading/Loading';
 import TimeAndDate from "./components/timeAndDate/TimeAndDate";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Experience from "./components/experience/Experience";
-import Contact from "./components/contact/Contact";
-import Contact_Nav from "./components/contact/Contact_Nav";
+import ContactMail from "./components/contact/ContactMail";
+import ContactNav from "./components/contact/ContactNav";
 import Footer from "./components/footer/Footer";
 import Projects from "./components/projects/Projects";
 
+
 const App = () => {
 
-  // I use the below functionality in order to make the mail image from the contact_nav 
-  // to trigger the style of the form element from the contact component
+  // Functionality for the Loading page
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time (you can replace this with your actual data loading logic)
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
+
+
+  // Functionality for the mail image from the ContacNnav component 
+  // to trigger the style of the form element from the contact component.
   useEffect(() => {
     const contact_form = document.querySelector('.contact__form');
     const mail_img = document.querySelector('.mail_img');
@@ -24,7 +37,7 @@ const App = () => {
       if (contact_form) {
         if (contact_form.style.display === 'none' || contact_form.style.display === '') {
           contact_form.style.display = 'flex';
-        } 
+        }
         else {
           contact_form.style.display = 'none';
         }
@@ -38,16 +51,23 @@ const App = () => {
     };
   }, []);
 
+
   return (
-    <div>
-      <Nav />
-      <Contact_Nav />
-      <TimeAndDate />
-      <Header />
-      <Experience />
-      <Projects />
-      <Contact />
-      <Footer />
+    <div className="App">
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <div>
+          <Nav />
+          <ContactNav />
+          <TimeAndDate />
+          <Header />
+          <Experience />
+          <Projects />
+          <ContactMail />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
