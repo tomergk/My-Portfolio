@@ -1,11 +1,11 @@
 nav {
     position: fixed;
-    right: 0;
+    right: 3px;
     transform: translateY(-50%); 
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
     z-index: 2;
     top: 50%;
     border-radius: 3rem;
@@ -37,8 +37,8 @@ nav a.active {
     }    
 
     .nav_buttons {
-        padding: 1rem;
-        font-size: 1.8rem;
+        padding: 1.4rem;
+        font-size: 2rem;
     }
 }
 
@@ -47,7 +47,7 @@ nav a.active {
 
     .nav_buttons {
         padding: 0.7rem;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         margin-right: 0rem;
     }
 }

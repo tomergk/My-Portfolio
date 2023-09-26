@@ -14,28 +14,32 @@ const data = [
         image: simonGif,
         title: 'Simon-Game',
         github: 'https://github.com/tomergk/Simon-Game',
-        link: simon
+        link: simon,
+        content: 'A classic Simon game implementation, built with Node.js and MongoDB to provide a fun and interactive gaming experience. In this game, your memory and pattern recognition skills will be put to the test as you strive to remember and repeat increasingly complex color sequences.'
     },
     {
         id: 2,
         image: board,
         title: 'Bulletin Board',
         github: 'https://github.com/tomergk/Blog',
-        link: Bulletin_Board
+        link: Bulletin_Board,
+        content: 'A simple and interactive bulletin board application where users can create posts with titles, content, and author information. These posts are then displayed alongside other contributions, allowing users to share their thoughts, ideas, and messages with the world.'
     },
     {
         id: 3,
         image: list,
         title: 'Tasks Organizer',
         github: 'https://github.com/tomergk/Lists-Tasks',
-        link: List_Task
+        link: List_Task,
+        content: 'A web application that allows users to create and manage lists, each containing a set of tasks. Whether you want to organize your daily to-dos, keep track of your projects, or plan your activities, this application provides a flexible and user-friendly solution.'
     },
     {
         id: 4,
         image: music,
         title: 'Music Play Kit',
         github: 'https://github.com/tomergk/Music-play-kit',
-        link: music_play_kit
+        link: music_play_kit,
+        content:  'A versatile web application that combines the joy of music with interactive instruments. Whether you want to enjoy cool songs or create your melodies, this application provides a fun and immersive musical experience.'
     }
 ]
 

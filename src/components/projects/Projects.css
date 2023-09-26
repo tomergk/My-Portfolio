@@ -1,13 +1,8 @@
-.projects__container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-}
-
 .project__item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
+    width: 50% !important;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -17,51 +12,98 @@
     background: transparent;
 }
 
-.project__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
-
-.project__item h3 {
+.project__item h4 {
     margin: 1rem 0;
     text-align: center;
 }
 
-.project__item-cta {
-    display: flex;
-    justify-content:space-between;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.project__item p {
+    margin: 1rem 0;
+    text-align: left;
 }
 
-a.btn {
-    text-align: center;
+.project__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.project__item-cta {
+    margin-bottom: 1rem !important;
 }
 
 .project_img {
-    height: 15rem;
-    width: 100%;
+    height: 35rem;
+    border-radius: 2rem;
 }
 
-/* MEDIA QUERIES (MEDIUM DEVICES (Tablets)) */
+.project_content {
+    font-size: 1.8vh
+}
 
-@media screen and (max-width: 1024px){
-    .projects__container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.2rem;
-        width: var(--container-width-md);
+.carousel-control-prev {
+    height: 10% !important;
+}
+
+.carousel-control-next {
+    height: 10% !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .carousel_width {
+        width: 90% !important;
     }
 
+    .container {
+        width: 73% !important;
+    }
 
 }
-
-/* MEDIA QUERIES (SMALL DEVICES (Phones)) */
 
 @media screen and (max-width: 600px) {
-    .projects__container {
-        grid-template-columns: repeat(1, 1fr);        
-        gap: 1rem;
+    
+    .project__item h4 {
+        margin: 1rem 0;
     }
+    
+    .project__item p {
+        margin: 1rem 0;
+    }
+    
+    .project__item-image {
+        margin-bottom: 2rem !important;
+    }
+    
+    .project_img {
+        height: 15rem;
+    }
+
+    .container {
+        width: 73% !important;
+    }
+
+    .carousel-item {
+        width: 100% !important;
+    }
+
+    .carousel-control-prev {
+        margin-top: 4%;
+    }
+
+    .carousel-control-next {
+        margin-top: 4%;
+    }
+
+    .inner-container {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .project_content {
+        font-size: 1.3vh
+    }
+
 }

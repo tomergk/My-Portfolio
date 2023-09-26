@@ -14,7 +14,7 @@ const contact_nav = () => {
 
             <div className='cube'>
                 <a href={CV} download='Tomer_g-cv.docx'>
-                    <img className='contact_image cv_img' src={cv} alt="cv-img" />
+                    <img className='contact_image' src={cv} alt="cv-img" />
                 </a>
             </div>
 
@@ -26,7 +26,7 @@ const contact_nav = () => {
 
             <div className='cube'>
                 <a href='https://github.com/tomergk' target='blank'>
-                    <img className='contact_image github_img' src={github} alt="gitHub_pic" />
+                    <img className='contact_image' src={github} alt="gitHub_pic" />
                 </a>
             </div>
 
@@ -38,7 +38,7 @@ const contact_nav = () => {
 
             <div className='cube'>
                 <a href='#contact'>
-                    <img className='contact_image mail_img' src={mail_img} alt="mail_pic" />
+                    <img className='contact_image' src={mail_img} alt="mail_pic" />
                 </a>
             </div>
 

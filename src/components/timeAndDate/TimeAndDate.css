@@ -1,14 +1,13 @@
 .TimeAndDate__container {
     position: absolute;
-    right: 2%;
-    top: 5%;
-    height: 5vh;
-    width: 12vw;
+    top: 3%;
+    right: 1%;
+    height: auto;
+    width: auto;
     text-align: center;
     background-color: transparent;
     border-radius: 2vh;
     color: var(--color-white);
-    font-size: 1.5vh;
     display: flex;
     align-items: center; 
     justify-content: center; 
@@ -22,6 +21,7 @@
     margin: 0;
     width: 100%;
     font-weight: 600;
+    font-size: 2.2vh;
 }
 
 /* MEDIA QUERIES (medium DEVICES (ipads)) */
@@ -29,9 +29,13 @@
 
     .TimeAndDate__container {
         right: 3%;
-        top: 2%;
+        top: 2.5%;
         height: 4vh;
-        width: 30vw;
+        padding: 15px;
+    }
+
+    .TimeAndDate__container h3 {
+        font-size: 1.5vh;
     }
 }
 
@@ -40,6 +44,12 @@
 
     .TimeAndDate__container {
         right: 3%;
-        width: 42vw;
+        padding: 0px 5px;
+        border: 3px solid var(--color-primary);
     }
+
+    .TimeAndDate__container h3 {
+        font-size: 1.4vh;
+    }
+
 }

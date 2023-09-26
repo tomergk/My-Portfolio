@@ -6,60 +6,60 @@ import { FiCheck } from 'react-icons/fi'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h2>Experience</h2>
+      <h3>Experience</h3>
 
       <div className="container experience__container">
 
         <div className="experience__frontend">
-          <h3>Frontend Dev</h3>
+          <h4>Frontend Dev</h4>
           <div className="experience__content">
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
+                <h5>HTML</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>CSS</h4>
+                <h5>CSS</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>Bootstrap</h4>
+                <h5>Bootstrap</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>JavaScript</h4>
+                <h5>JavaScript</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>jQuery</h4>
+                <h5>jQuery</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>React</h4>
+                <h5>React</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>EJS</h4>
+                <h5>EJS</h5>
               </div>
             </article>
 
@@ -68,48 +68,48 @@ const Experience = () => {
         {/* END OF FRONTEND */}
 
         <div className="experience__backend">
-          <h3>Backend Dev</h3>
+          <h4>Backend Dev</h4>
           <div className="experience__content">
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>Node.js</h4>
+                <h5>Node.js</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>SQL</h4>
+                <h5>SQL</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>PostgreSQL</h4>
+                <h5>PostgreSQL</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>Express</h4>
+                <h5>Express</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>MySQL</h4>
+                <h5>MySQL</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>MongoDB</h4>
+                <h5>MongoDB</h5>
               </div>
             </article>
 
@@ -118,34 +118,34 @@ const Experience = () => {
         {/* END OF BACKEND */}
 
         <div className="experience__backend">
-          <h3>Programming Languages</h3>
+          <h4>Programming Languages</h4>
           <div className="experience__content">
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>Java</h4>
+                <h5>Java</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>C</h4>
+                <h5>C</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>Python</h4>
+                <h5>Python</h5>
               </div>
             </article>
 
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h4>VBA</h4>
+                <h5>VBA</h5>
               </div>
             </article>
 
