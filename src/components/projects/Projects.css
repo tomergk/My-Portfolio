@@ -32,6 +32,8 @@
 
 .project__item-cta {
     margin-bottom: 1rem !important;
+    display: flex;
+    gap: 10px;
 }
 
 .project_img {
@@ -50,6 +52,8 @@
 .carousel-control-next {
     height: 10% !important;
 }
+
+
 
 @media screen and (max-width: 1024px) {
 
