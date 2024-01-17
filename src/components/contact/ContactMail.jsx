@@ -11,10 +11,8 @@ const Contact = () => {
 
     emailjs.sendForm('service_2qa0j9l', 'template_5alcka7', email_form.current, '65WXlyNRJCgQDG5IF')
       .then((result) => {
-        console.log(result.text);
         setIsFormSubmitted(true);
       }, (error) => {
-        console.log(error.text);
       });
     // e.target.reset();  to reset the form fields to their default or initial state.
   };

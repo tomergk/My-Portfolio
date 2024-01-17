@@ -38,7 +38,7 @@ const contact_nav = () => {
 
             <div className='cube'>
                 <a href='#contact'>
-                    <img className='contact_image' src={mail_img} alt="mail_pic" />
+                    <img className='contact_image mailImage' src={mail_img} alt="mail_pic" />
                 </a>
             </div>
 

@@ -12,25 +12,23 @@ import Projects from "./components/projects/Projects";
 
 const App = () => {
 
-  // Functionality for the Loading page
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulate loading time (you can replace this with your actual data loading logic)
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
-  }, []);
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 3000);
+  
+  setTimeout(() => {
+    formShower();
+  }, 2000);
 
+  function formShower() {
 
-  // Functionality for the mail image from the ContacNnav component 
-  // to trigger the style of the form element from the contact component.
-  useEffect(() => {
     const contact_form = document.querySelector('.contact__form');
-    const mail_img = document.querySelector('.mail_img');
+    const mailImage = document.querySelector('.mailImage');
 
-    if (contact_form && mail_img) {
-      mail_img.addEventListener('click', handleMailImgClick);
+    if (contact_form && mailImage) {
+      mailImage.addEventListener('click', handleMailImgClick);
     }
 
     function handleMailImgClick() {
@@ -43,14 +41,7 @@ const App = () => {
         }
       }
     }
-
-    return () => {
-      if (mail_img) {
-        mail_img.removeEventListener('click', handleMailImgClick);
-      }
-    };
-  }, []);
-
+  }
 
   return (
     <div className="App">
