@@ -2,13 +2,13 @@ import simonGif from '../../assets/gifs/simon.gif';
 import board from '../../assets/gifs/board.gif';
 import music from '../../assets/gifs/music.gif';
 import list from '../../assets/gifs/list.gif';
-import dataCombination from '../../assets/gifs/data-combination.gif';
+// import dataCombination from '../../assets/gifs/data-combination.gif';
 
 const simon = 'https://simon-game-1lus.onrender.com/';
 const Bulletin_Board = 'https://blog-rcwp.onrender.com/';
 const List_Task = 'https://lists-tasks.onrender.com/';
 const music_play_kit = 'https://music-play-kit.onrender.com/';
-const data_combination = 'https://data-combination.onrender.com/'
+// const data_combination = 'https://data-combination.onrender.com/'
 
 const data = [
     {
@@ -43,14 +43,14 @@ const data = [
         link: music_play_kit,
         content:  'A versatile web application that combines the joy of music with interactive instruments. Whether you want to enjoy cool songs or create your melodies, this application provides a fun and immersive musical experience.'
     },
-    {
-        id: 5,
-        image: dataCombination,
-        title: 'Cross Source Information Fusion',
-        github: 'https://github.com/tomergk/Data_Combination',
-        link: data_combination,
-        content:  'Unlock the full potential of your searches of information in a whole new light.'
-    }  
+    // {
+    //     id: 5,
+    //     image: dataCombination,
+    //     title: 'Cross Source Information Fusion',
+    //     github: 'https://github.com/tomergk/Data_Combination',
+    //     link: data_combination,
+    //     content:  'Unlock the full potential of your searches of information in a whole new light.'
+    // }  
 ]
 
 export default data

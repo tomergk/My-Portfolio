@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Loading from './components/loading/Loading';
 import TimeAndDate from "./components/timeAndDate/TimeAndDate";
 import Header from "./components/header/Header";
@@ -8,7 +8,7 @@ import ContactMail from "./components/contact/ContactMail";
 import ContactNav from "./components/contact/ContactNav";
 import Footer from "./components/footer/Footer";
 import Projects from "./components/projects/Projects";
-
+import ProjectsC from "./components/projectsCommingUp/ProjectsC";
 
 const App = () => {
 
@@ -17,7 +17,7 @@ const App = () => {
   setTimeout(() => {
     setIsLoading(false);
   }, 3000);
-  
+
   setTimeout(() => {
     formShower();
   }, 2000);
@@ -55,6 +55,7 @@ const App = () => {
           <Header />
           <Experience />
           <Projects />
+          <ProjectsC />
           <ContactMail />
           <Footer />
         </div>

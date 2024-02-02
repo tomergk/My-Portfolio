@@ -4,6 +4,8 @@ import { AiOutlineHome } from 'react-icons/ai'
 import { GiVitruvianMan } from 'react-icons/gi'
 import { BsBagDash } from 'react-icons/bs'
 import { useState } from 'react'
+import { FiGift } from "react-icons/fi";
+
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
@@ -24,6 +26,12 @@ const Nav = () => {
         onClick={() => setActiveNav('#projects')}
         className={`${activeNav === '#projects' ? 'active' : ''} nav_buttons`}><BsBagDash />
       </a>
+      <a
+        href="#projectsC"
+        onClick={() => setActiveNav('#projectsC')}
+        className={`${activeNav === '#projectsC' ? 'active' : ''} nav_buttons`}><FiGift />
+      </a>
+
     </nav>
   )
 }
