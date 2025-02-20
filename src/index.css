@@ -13,12 +13,11 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #283d4c;
+    --color-bg-variant: #233949;
+    --color-primary: #6bb9f0;
+    --color-primary-variant: rgb(237, 117, 37);
     --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
     --transition: all 400ms ease;
     --container-width-lg: 70%;
     --container-width-md: 75%;
@@ -38,7 +37,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/background/bg-texture.png);
+    /* background-image: url(../src/assets/background/bg-texture.png); */
 }
 
 /* ============= GENERAL STYLES ============ */
@@ -111,8 +110,8 @@ a:hover {
 }  
 
 .btn-primary:hover {
-    background: #004225;
-    color: var(--color-white);
+    background: var(--color-primary-variant); 
+    color: #ffffff;;
 }  
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES (Tablets)) =============*/

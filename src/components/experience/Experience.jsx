@@ -131,6 +131,13 @@ const Experience = () => {
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
+                <h5>Python</h5>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <FiCheck className='experience__details-icon' />
+              <div>
                 <h5>C</h5>
               </div>
             </article>
@@ -138,7 +145,7 @@ const Experience = () => {
             <article className='experience__details'>
               <FiCheck className='experience__details-icon' />
               <div>
-                <h5>Python</h5>
+                <h5>C#</h5>
               </div>
             </article>
 
